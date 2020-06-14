@@ -29,7 +29,7 @@ Implemented a star schema for song play analysis.
 ## ETL Pipeline
 1. Create the Sparkify database and used the star schema to create the tables
 2. Extract data from the songs and log data files
-3. Transform the data such as the timestamp column
+3. Transform the data 
 4. Load the data into the fact and dimensional tables
 
 ## Project Files
