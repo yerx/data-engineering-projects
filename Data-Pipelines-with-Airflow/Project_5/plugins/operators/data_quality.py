@@ -36,4 +36,4 @@ class DataQualityOperator(BaseOperator):
         if num_records < 1:
           self.log.error(f"Data quality check failed. No records found in table {table}")
           raise ValueError(f"Data quality check failed. No records found in table {table}")
-        self.log.info('DataQualityOperator not implemented on table {table}')
+        self.log.info('Data quality check failed on table {table}')
